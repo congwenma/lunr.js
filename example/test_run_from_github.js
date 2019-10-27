@@ -5,6 +5,7 @@ var idx = lunr(function () {
   this.field('title')
   this.field('body')
 
+  debugger
   this.add({
     "title": "Twelfth-Night",
     "body": "If music be the food of love, play on: Give me excess of it…",
